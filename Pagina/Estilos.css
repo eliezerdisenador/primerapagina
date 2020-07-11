@@ -1,0 +1,499 @@
+body{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+
+p{
+    font-size: 30px;
+}
+
+li{
+    list-style: none;
+    margin-right: 25px;
+
+}
+
+a {
+    text-decoration: black;
+}
+
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+}
+
+.Titular {
+    text-align: center;
+    margin-top: 200px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.primera-a {
+    font-size: 14px;
+    background: #85C1E9;
+    padding: 20px 30px 20px 30px;
+    color: white;
+    transition: 1s;
+}
+
+.primera-a:hover  {
+    color: black;
+    transition: 1s;
+    display: inline-block;
+}
+
+
+header{
+    background: url(fondo3.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.contenedor {
+    max-width: 1280px;
+    margin: auto;
+    width: 90%;
+}
+
+/*Arranca seccion sobre mi*/
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.imagen {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto-boton {
+    width: 42%;
+}
+
+.texto-boton p{
+    font-size: 18px;
+}
+
+.texto-boton a {
+    margin-top: 20px;
+    display: inline-block;
+    background: #85C1E9;
+    font-size: 15px;
+    transition: 1s;
+    color: white;
+    padding: 20px 30px 20px 30px;
+}
+
+.texto-boton a:hover {
+    color: black;
+    transition: 1s;
+}
+
+
+.servicio-conte {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servicio {
+    width: 25%;
+    padding: 50px 38px 50px 38px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    color: white;
+    transition: 1s;
+}
+
+
+.violeta {
+    background: #5055df;
+}
+
+.celeste {
+    background: #40a8f9;
+}
+
+.servicio h4 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.servicio img {
+    float: right;
+}
+
+.servicio p {
+    font-size: 18px;
+    height: 200px;
+}
+
+span {
+    font-size: 80px;
+    color: black;
+}
+
+.owl-nav {
+    text-align: center;
+}
+
+.contenedor-primario {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contenedor-primario h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.contenedor-primario p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.porque-singular {
+    width: 28%;
+}
+
+#blog {
+    background: #f9fafc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contenedor-publicaciones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.publicacion-primera {
+    width: 30%;
+    box-shadow: 1px 1px 14px #cccccc;
+    padding-bottom: 0px 30px 20px 30px;
+}
+.publicacion-segunda {
+    width: 30%;
+    box-shadow: 1px 1px 14px #cccccc;
+    padding-bottom: 20px 30px 20px 30px;
+}
+
+#blog img{
+    width: 100%;
+}
+
+#blog h4 {
+    font-size: 23px;
+    margin: 0;
+    padding: 20px;
+}
+
+#blog p{
+    color: #5a6169;
+    line-height: 24px;
+    font-size: 16px;
+    padding: 10px 20px 20px 20px;
+    margin: 0;
+}
+
+#blog a {
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+    transition: 1s;
+}
+
+#blog a:hover {
+    color: black;
+    transition: 1s;
+}
+
+#esperas {
+    background: linear-gradient(rgb(245,85,42), rgb(243,167,99));
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+#esperas h3 {
+    font-size: 23px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#esperas a {
+    padding: 15px 45px 15px 45px;
+    transition: 1s;
+    color: white;
+}
+
+#esperas a:hover {
+    color: black;
+    transition: 1s;
+}
+
+#whatsapp a {
+    background: none;
+    position: fixed;
+    top: 85%;
+    right: 15px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.boton-uno{
+    padding: 20px 30px 20px 30px;
+        background: #85C1E9;
+}
+
+.boton-dos{
+    padding: 20px 30px 20px 30px;
+    background: #85C1E9;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+    /* se va a aplicar cuando el MAXIMO DE ANCHO sea de 480px*/
+        nav {
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        background: #5cb8ff;
+        width: 100%;
+        display: none;
+    }
+
+
+nav .lista {
+    flex-direction: column;
+    display: flex;
+}
+
+.menu-icon {
+    display: block;
+    width: 25px;
+}
+
+.Titular {
+    margin-top: 54px;
+    }
+
+h1 {
+    font-size: 49px;
+}
+
+h2 {
+    font-size: 19px;
+}
+
+.imagen {
+flex-direction: column;
+}
+
+.texto-boton {
+    width: 90%;
+}
+
+.servicio-conte {
+    flex-direction: column;
+}
+
+.servicio {
+    width: 72%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+h3 {
+    font-size: 46px;
+}
+
+.contenedor-primario {
+    flex-direction: column;
+}
+
+.porque-singular {
+    width: 95%;
+}
+
+.contenedor-publicaciones {
+    flex-direction: column;
+}
+
+.publicacion {
+    width: 85%;
+    margin: auto;
+}
+
+.imagen-sobremi {
+    width: 90%;
+}
+
+.vil {
+    margin-top: 60px;
+}
+
+.publicacion-primera {
+    width: 80%;
+    padding: 20px 30px 20px 30px;;
+}
+
+.publicacion-segunda {
+    width: 80%;
+    padding: 20px 30px 20px 30px;;
+    margin-top: 30px;
+}
+
+.boton-uno{
+    padding: 20px 30px 20px 30px;
+        background: #85C1E9;
+}
+
+.boton-dos{
+    padding: 20px 30px 20px 30px;
+    background: #85C1E9;
+}
+
+#whatsapp a {
+    background: none;
+    position: fixed;
+    top: 85%;
+    right: 15px;
+}
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+
+    header {
+        height: 53vh;
+    }
+
+nav {
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        background: #5cb8ff;
+        width: 100%;
+        display: none;
+    }
+
+nav .lista {
+    flex-direction: column;
+    display: flex;
+}
+
+.menu-icon {
+    display: block;
+    width: 25px;
+}
+
+.Titular {
+    margin-top: 54px;
+    }
+
+h1 {
+    font-size: 49px;
+}
+
+h2 {
+    font-size: 19px;
+}
+
+.imagen {
+flex-direction: column;
+}
+
+.texto-boton {
+    width: 90%;
+}
+
+.servicio-conte {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servicio {
+    width: 68%;
+    padding: 50px 38px 50px 38px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    color: white;
+    transition: 1s;
+}
+
+h3 {
+    font-size: 46px;
+}
+
+.contenedor-primario {
+    flex-direction: column;
+}
+
+.porque-singular {
+    width: 95%;
+}
+
+.contenedor-publicaciones {
+    flex-direction: column;
+}
+
+.publicacion {
+    width: 85%;
+    margin: auto;
+}
+
+.imagen-sobremi {
+    width: 55%;
+}
+
+
+.publicacion-primera {
+    width: 80%;
+    padding: 20px 30px 20px 30px;;
+}
+
+.publicacion-segunda {
+    width: 80%;
+    padding: 20px 30px 20px 30px;;
+    margin-top: 30px;
+}
+
+.boton-uno{
+    padding: 20px 30px 20px 30px;
+        background: #85C1E9;
+}
+
+.boton-dos{
+    padding: 20px 30px 20px 30px;
+    background: #85C1E9;
+}
+#whatsapp a {
+    background: none;
+    position: fixed;
+    top: 85%;
+    right: 15px;
+}
+}
